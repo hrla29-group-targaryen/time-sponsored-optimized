@@ -1,0 +1,75 @@
+.sponsor-card-container{
+	display: flex;
+	align-items: center;
+    padding-left: 8px;
+}
+.sponsor-card-container-sub{
+	display: flex;
+	justify-content: left;
+}
+
+.sponsor-card-left{
+	position: relative;
+	left: 25px;
+}
+
+.sponsor-card-left button{
+	color: #0070eb;
+	background-color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,.1);
+    width:35px;
+    height:35px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sponsor-card-left button:focus{
+    outline: none;
+}
+
+.sponsor-card-right{
+	position: relative;
+	left: -25px;
+}
+
+.sponsor-card-right i {
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+
+.sponsor-card-left i {
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+}
+
+.sponsor-card-right button{
+	color: #0070eb;
+	background-color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,.1);
+    width:35px;
+    height:35px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sponsor-card-right button:focus{
+    outline: none;
+}
+
+.sponsor-btn-invisible{
+	visibility: hidden;
+}

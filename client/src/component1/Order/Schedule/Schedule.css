@@ -1,0 +1,150 @@
+.order-schedule-container{
+	width:368px;
+	height:auto;
+	background-color: white;
+}
+
+.order-schedule-exit{
+	padding: 16px 32px;
+}
+
+.order-schedule-exit button{
+	color: #0070eb;
+    background: transparent;
+    border: none;
+    height: 44px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.order-schedule-exit button:hover{
+	color: #0058b8;
+}
+
+.order-schedule-exit h3{
+	margin: 0;
+    font-size: 23.3px;
+    line-height: 1.5;
+}
+
+.order-schedule-text{
+    padding: 16px 32px;
+}
+
+.order-schedule-text p{
+    margin: 0;
+}
+
+.order-schedule-buttons{
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.order-schedule-buttons button{
+    cursor: pointer;
+    width: 100%;
+    line-height: 2.3;
+    font-weight: bold
+}
+
+.order-schedule-buttons-selected{
+    background: #0070eb;
+    border: 2px solid #0070eb;
+    color: white;
+}
+
+.order-schedule-buttons-not-selected{
+    background: white;
+    color: #0058b8;
+    border: 2px solid rgba(0,0,0,.2); 
+}
+
+.order-schedule-buttons-not-selected:hover{
+    background: #0058b8;
+    color: white;
+    border: 2px solid #0058b8; 
+}
+
+.order-schedule-buttons button:first-child {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.order-schedule-buttons button:nth-child(3) {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+}
+
+
+
+
+.order-schedule-items{
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.order-schedule-items-asap{
+    text-align: center;
+}
+.order-schedule-items-asap h5{
+    margin: 0;
+    line-height: 1.6;
+}
+
+.order-schedule-items-asap p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,.55);
+}
+
+.order-schedule-items-today{
+    width: 100%;
+}
+
+.order-schedule-items-today-select{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.20);
+    padding: 6px;
+}
+
+.order-schedule-items-today-select:hover{
+    border-color: rgba(0,0,0,.7);
+}
+
+.order-schedule-pickup-button{
+    padding: 16px 32px;
+}
+
+.order-schedule-pickup-button button{
+    width: 100%;
+    height: 44px;
+    color: white;
+    font-weight: 800;
+    background-color: #0070eb;
+    border: none;
+    border-radius: 4px;
+}
+
+.order-schedule-pickup-button button:hover{
+    background-color: #0058b8;
+}
+
+
+#later_date_time_text {
+    text-align: center;
+    cursor: pointer;
+    color :#0070eb;
+}
+
+#later_date_time_text:hover {
+    color :#0058b8;
+}

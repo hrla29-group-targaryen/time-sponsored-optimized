@@ -1,0 +1,46 @@
+.order-container{
+	max-width: 75%;
+    background: white;
+    padding: 15px;
+    min-height: 42px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+.order-change{
+	background: transparent;
+    border: none;
+    color: #0058b8;
+    font-size: 14px;	
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.order-status{
+	align-items: center;
+    display: grid;
+    text-align: left;	
+    padding-right: 40px;
+}
+
+.order-status p{
+	margin: 0;
+    font-size: 14px;
+}
+
+.order-no-minimum{
+	font-size: 12px !important;
+	color: #13aa37;
+    margin-top: 5px !important;
+}
+
+
+.app-sponsor-container{
+    max-width: 75%;
+    background: white;
+    padding: 15px;
+}

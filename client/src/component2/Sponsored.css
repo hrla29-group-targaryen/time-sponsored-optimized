@@ -1,0 +1,15 @@
+.sponsor-container {
+    max-width: 75%;
+    background: #fcfcfb;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sponsor-container {
+	font-size: 22.3px;
+	font-weight: 700;
+	margin: 0 0 12px 0;
+	padding-left: 57px;
+}
+
+

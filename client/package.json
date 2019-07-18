@@ -1,0 +1,64 @@
+{
+  "name": "grubhub_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest",
+    "test:w": "jest --watchAll",
+    "test:c": "jest --coverage",
+    "dev:static": "webpack -w --config webpack.dev.js",
+    "dev:client": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "engine": {
+    "node": "10.16.0"
+  },
+  "author": "James Jongho Kim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
+  }
+}

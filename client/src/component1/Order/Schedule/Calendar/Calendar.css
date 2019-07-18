@@ -1,0 +1,48 @@
+.order-schedule-items-later{
+    width: 100%;
+}
+
+.order-schedule-items-later-month{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.order-schedule-items-later-days{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+	display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+    margin-bottom: 8px;
+}
+
+.order-schedule-items-later-DD{
+	text-align: center;
+	display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+}
+
+.order-schedule-items-later-DD span{
+	margin: 0.5rem;
+	color: #0070eb;
+	cursor: pointer;
+}
+
+.order-schedule-items-later-DD span:hover{
+	color: #0058b8;
+}
+
+#order-today{
+	border-bottom: 1px solid #cacaca;
+    color: #cacaca;
+}
+
+#order-today:hover{
+	color: #cacaca;
+}
+
+.order-schedule-items-later-empty{
+	cursor:initial !important;
+}
