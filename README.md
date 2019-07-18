@@ -5,7 +5,7 @@
 
 Unit tests last updated at July 18
 
-- Developed a microservice server redering two components; <Time /> and <Sponsored />
+- Developed a microservice server rendering two components; Time component and Sponsored component
 - Optimized with code-splitting and achieved a 100% audit score on Chrome Lighthouse
 - Set up Nginx as reserve proxy and deployed on Digital Ocean Ubuntu 18.04
 - Performed unit testing with Jest & Enzyme and achieved a 99% code coverage
@@ -13,8 +13,8 @@ Unit tests last updated at July 18
 
 ## Deployment
 
-* [Reverse Proxy](http://138.68.22.104/?id=10) - Nginx server connecting all the microservice servers on a single page
-* [Microservice](https://time-sponsored.herokuapp.com/restaurants/time_sponsored/?id=10) - Express server serving bundle.js
+* [Reverse Proxy](http://138.68.22.104/?id=10) - Nginx server connecting all the microservice servers on a single page (deployed on Digital Ocean)
+* [Microservice](https://time-sponsored.herokuapp.com/restaurants/time_sponsored/?id=10) - Express server serving bundle.js (deployed on Heroku)
 
 ## Related Projects
 
